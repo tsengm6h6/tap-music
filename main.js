@@ -30,10 +30,10 @@ Btn.addEventListener('click', () => {
 // Control Sound change
 window.onload = function () {
 
-  const kick = new Tone.Player("/sounds/kick.wav").toDestination();
-  const clap = new Tone.Player("/sounds/clap.wav").toDestination();
-  const snare = new Tone.Player("/sounds/snare.wav").toDestination();
-  const openhat = new Tone.Player("/sounds/openhat.wav").toDestination();
+  const kick = new Tone.Player("./sounds/kick.wav").toDestination();
+  const clap = new Tone.Player("./sounds/clap.wav").toDestination();
+  const snare = new Tone.Player("./sounds/snare.wav").toDestination();
+  const openhat = new Tone.Player("./sounds/openhat.wav").toDestination();
 
   let index = 0
 

@@ -41,7 +41,6 @@ window.onload = function () {
 
   function repeat(time) {
     let step = index % 8 // 每 8 次一輪
-    console.log(step)
     let kickInput = document.querySelector(`.kick label:nth-child(${step + 1}) input`) // step 從 0 開始
     if (kickInput.checked) {
       kick.start()
